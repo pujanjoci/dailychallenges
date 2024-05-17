@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Daily Challenge</h1>
+        <div class="challenges">
+            <div class="challenge" onclick="toggleCompletion(0)" id="challenge-0">Challenge 1: 5Km Walk.</div>
+            <div class="challenge" onclick="toggleCompletion(1)" id="challenge-1">Challenge 2: 100 push-up.</div>
+            <div class="challenge" onclick="toggleCompletion(2)" id="challenge-2">Challenge 3: 100 sit-ups.</div>
+            <div class="challenge" onclick="toggleCompletion(3)" id="challenge-3">Challenge 4: 100 pull-ups.</div>
+            <div class="challenge" onclick="toggleCompletion(4)" id="challenge-4">Challenge 5: 50 squats.</div>
+        </div>
+        <div id="completed-message" class="popup">Challenge Completed!</div>
+        <button id="reset-btn" onclick="resetChallenges()">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
